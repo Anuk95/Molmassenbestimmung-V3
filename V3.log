@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.8)  25 DEC 2015 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.8)  25 DEC 2015 16:32
 entering extended mode
 **V3.tex
 (V3.tex
@@ -1280,18 +1280,38 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 138.
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 139.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 139.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 142.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 142.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 142.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 142.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (V3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 139.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 139.
-Package rerunfilecheck Info: File `V3.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 139.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+
+
+Package rerunfilecheck Warning: File `V3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `V3.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  51B345A3B588018F7C46D623DCE97F94;43.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
  ) 
 Here is how much of TeX's memory you used:
- 19779 strings out of 493673
- 365606 string characters out of 3141533
+ 19781 strings out of 493673
+ 365621 string characters out of 3141533
  454806 words of memory out of 3000000
  22889 multiletter control sequences out of 15000+200000
  18427 words of font info for 76 fonts, out of 3000000 for 9000
@@ -1304,9 +1324,9 @@ C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on V3.pdf (2 pages, 77385 bytes).
+Output written on V3.pdf (3 pages, 85441 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
+ 49 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
