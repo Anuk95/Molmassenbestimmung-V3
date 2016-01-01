@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.12)  1 JAN 2016 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.12)  1 JAN 2016 22:17
 entering extended mode
 **V3.tex
 (V3.tex
@@ -1281,50 +1281,112 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 139.
 Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 144.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 144.
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 146.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 146.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 148.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 148.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 165.
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 186.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 186.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 186.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 186.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+
+Overfull \hbox (30.2319pt too wide) detected at line 192
+[]\OT1/cmr/m/n/12 \OML/cmm/m/it/12 M \OT1/cmr/m/n/12 = []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 211.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 211.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 213.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 218.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 218.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 218.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 218.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
  (V3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
-Package rerunfilecheck Info: File `V3.out' has not changed.
-(rerunfilecheck)             Checksum: AC7A844A025F8205C75A6F1A6E1F80CC;93.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
+
+
+Package rerunfilecheck Warning: File `V3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `V3.out':
+(rerunfilecheck)             Before: B941BA8E17C3251F76EB513ED772086A;421
+(rerunfilecheck)             After:  F779C6FAA2E6C471A49B37B02B0CE1B0;434.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
  ) 
 Here is how much of TeX's memory you used:
- 19786 strings out of 493673
- 362120 string characters out of 3148822
- 454810 words of memory out of 3000000
- 22892 multiletter control sequences out of 15000+200000
- 18427 words of font info for 76 fonts, out of 3000000 for 9000
+ 19801 strings out of 493673
+ 362320 string characters out of 3148822
+ 457814 words of memory out of 3000000
+ 22898 multiletter control sequences out of 15000+200000
+ 18721 words of font info for 77 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,7n,56p,10353b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,13n,56p,10353b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Neuer Ordner/f
 onts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Neuer Ordner/fonts/type1/public/a
 msfonts/cm/cmex10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmmi12.pf
 b><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Neuer Ordner/fo
 nts/type1/public/amsfonts/cm/cmr17.pfb><D:/Neuer Ordner/fonts/type1/public/amsf
-onts/cm/cmr8.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
-D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on V3.pdf (3 pages, 108557 bytes).
+onts/cm/cmr6.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/N
+euer Ordner/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Neuer Ordner/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb>
+Output written on V3.pdf (4 pages, 139391 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -141,19 +141,83 @@ In der Bestimmung der Molmasse nach Viktor Meyer wird die Molmasse einer leicht 
 
 
 
+\section{Auswertung}
+
+
+
+
+
+
 
 
 \section{Fehlerrechnung}
 
+\subsection{absolute Fehler}
+
+Die absoluten Fehler der Messgrößen ergeben sich aus der letzten Dezimalstelle. Der absolute Fehler des Athmosphärendrucks $p_\mathrm{B}$ errechnet sich aus dem Fehler der Kuppenhöhe und dem der Temperatur bei der Umrechnung in Torr. Die Fehler werden unten dargestellt.\\
+
+\begin{table} [h]
+\begin{tabular} {p {3 cm} p {5 cm}}
+	$\Delta m $ & $=0,001$ g\\
+	$\Delta p_\mathrm{B}  $ & $=0,07\, \mathrm{Torr} = 9,3325$ Pa\\
+	$\Delta \delta_\mathrm{H_2O} $ & $=0,01\, \mathrm{kg} \cdot 				\mathrm{m^{-3}}$\\
+	$\Delta r $ & $=0,01$\\
+	$\Delta V $ & $= 0,1 \cdot 10^{-6} \mathrm{m^3}$\\
+	$\Delta p_\mathrm{H_2O}(T_\mathrm{Z}) $ & $= 0,1$ Pa\\
+	$\Delta h $ & $ =0.005$ m\\
+
+\end{tabular}
+\end{table}
+
+\subsection{Fehlerfortpflanzung}
 
 Nach der Gauß'schen Fehlerfortpflanzung
 
 \begin{equation}
 \Delta f = \sqrt{\sum_\mathrm{i} \left(\frac{d}{dx_\mathrm{i}}\right)^{2} \cdot \Delta x_\mathrm{i}^2}
 \end{equation}
-\\
 
-ergibt sich folgender Fehler für $\Delta p_\mathrm{L}$
+
+ergibt sich für den hydrostatischen Druck $\Delta p_\mathrm{hyd}$ folgender Fehler:\\
+
+\begin{equation}
+\Delta p_\mathrm{hyd} =  \sqrt{(g \cdot h)^2 \cdot \Delta \delta_\mathrm{H_2O}^2 + (\delta_\mathrm{H_2O} \cdot g)^2 \cdot \Delta h^2}
+\end{equation}
+
+
+Anschließend ergibt sich für den Fehler des Luftdruckes $\Delta p_\mathrm{L}$:\\
+
+
+\begin{equation}
+\Delta p_\mathrm{L} = \sqrt{\Delta p_\mathrm{B}^2 + \Delta p_\mathrm{hyd}^2 + p_\mathrm{H_2O}(T_\mathrm{Z})^2 \cdot \Delta r^2 + (1-r)^2 \cdot \Delta p_\mathrm{H_2O}(T_\mathrm{Z})}
+\end{equation}
+
+Und anschließend für den Fehler der Molaren Masse:\\
+
+\begin{equation}
+\Delta M = \sqrt{\left(\frac{R\cdot T}{p\cdot V}\right)^2 \cdot \Delta m^2 + \left(\frac{m\cdot R}{p\cdot V} \right) \cdot \Delta T^2 + \left(-\frac{m\cdot R\cdot T}{p^2 \cdot V}\right)^2 \cdot \Delta p^2 + \left(-\frac{m \cdot R \cdot T}{p \cdot V^2} \right)^2 \cdot \Delta V^2}
+\end{equation}
+
+Mit $p = p_\mathrm{L}$ ergeben sich damit folgende Fehler:\\
+
+\begin{table} [h]
+\centering
+\begin{tabular}{|p{4 cm}||p{4 cm}|p{4 cm}|}
+        \hline
+		Fehler & Messung 1 & Messung 2\\
+         \hline 
+        $\Delta p_\mathrm{hyd}$ in Pa & $48,95$  & $48,95$ \
+        \hline
+        $\Delta p_\mathrm{L}   $ in Pa & $1344$  & $1344$ \\
+        \hline
+        $\Delta M $ in $\mathrm{g{~}mol^{-1}}$ & $1,72$ & $1,74$ \\
+        \hline     
+\end{tabular}
+\end{table}
+
+\subsection{Vergleich mit Literaturwerten}
+
+\subsection{Diskussion systematischer Fehler}
 
 
 
