@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.12)  27 DEC 2015 16:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.12)  1 JAN 2016 20:51
 entering extended mode
 **V3.tex
 (V3.tex
@@ -1280,41 +1280,51 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 139.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 139.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 146.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 146.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 161.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
+(babel)             in language  on input line 161.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 161.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 161.
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
  (V3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `V3.out' has not changed.
-(rerunfilecheck)             Checksum: 51B345A3B588018F7C46D623DCE97F94;43.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
+(rerunfilecheck)             Checksum: AC7A844A025F8205C75A6F1A6E1F80CC;93.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 19783 strings out of 493673
- 362088 string characters out of 3148822
+ 19786 strings out of 493673
+ 362120 string characters out of 3148822
  454810 words of memory out of 3000000
- 22891 multiletter control sequences out of 15000+200000
+ 22892 multiletter control sequences out of 15000+200000
  18427 words of font info for 76 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  44i,7n,56p,10353b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Neuer Ordner/f
 onts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Neuer Ordner/fonts/type1/public/a
-msfonts/cm/cmmi12.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr12.pfb
-><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Neuer Ordner/fon
-ts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Neuer Ordner/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb>
-Output written on V3.pdf (3 pages, 86175 bytes).
+msfonts/cm/cmex10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Neuer Ordner/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb><D:/Neuer Ordner/fonts/type1/public/amsf
+onts/cm/cmr8.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
+D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on V3.pdf (3 pages, 108557 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 70 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
