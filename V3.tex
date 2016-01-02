@@ -99,7 +99,7 @@
 
 \rule{\textwidth}{1pt}\\[0.5cm]
 {\huge \bfseries
-  V4: Molmassenbestimmung\\[1.5ex]
+  V3: Molmassenbestimmung\\[1.5ex]
   nach Viktor Meyer}\\[0.5cm]
 \rule{\textwidth}{1pt}
 
@@ -119,13 +119,16 @@ Assistentin: & Annemarie Kehl\\
 
 \begin{Large}
 \fbox{
-  \begin{minipage}[t][5,5cm][t]{8cm} 
-   Werte für Campher:\\
-   $M_A = (13 \cdot 10 \pm 3 \cdot 10){~} \mathrm{g{~}mol^{-1}}$\\
-   $M_B = (12 \cdot 10 \pm 2 \cdot 10){~} \mathrm{g{~}mol^{-1}}$\\\\
-   Werte für Kaliumchlorid:\\
-   $M_A = (6 \cdot 10 \pm 3 \cdot 10){~} \mathrm{g{~}mol^{-1}}$\\
-   $M_B = (5\cdot 10 \pm 3\cdot 10 ){~} \mathrm{g{~}mol^{-1}}$\\
+  \begin{minipage}[t][5cm][t]{7cm} 
+  Messwerte:\\
+   $M_1 = (86 \pm 2){~} \mathrm{g{~}mol^{-1}}$\\
+   $M_2 = (88 \pm 2){~} \mathrm{g{~}mol^{-1}}$\\ 
+\\
+Literaturwert: \\
+$M_\mathrm{S} = 84\, \mathrm{g{~}mol^{-1}}$
+  
+  
+  
   
   \end{minipage}
 }
@@ -143,11 +146,34 @@ In der Bestimmung der Molmasse nach Viktor Meyer wird die Molmasse einer leicht 
 
 \section{Auswertung}
 
+Nach dem idealen Gasgesetz ist die Größe des verdrängten Volumens eines Gases abhängig von der Temperatur, dem Druck und der Stoffmenge. Letztere setzt sich aus der Molaren Masse und der Masse der Substanz zusammen. Daraus ergibt sich die molare Masse der Probe.
 
+\begin{equation}
+M_\mathrm{P} = \frac{m_\mathrm{P}}{n_\mathrm{P}} =\frac{m_\mathrm{P} \cdot R \cdot T_\mathrm{Z}}{p_\mathrm{L} \cdot V_\mathrm{L}}
+\end{equation}
 
+Die Masse der Probesubstanz und das verdrängte Volumen können einfach bestimmt werden, ebenso die Temperatur des Wassers $T_\mathrm{Z}$, durch welches die verdrängte Luft direkt durchtritt. \\
+Zu Beginn der Messung ist der Druck $p_\mathrm{L}$ innerhalb der Apparatur gleich dem Luftdruck außerhalb und somit leicht zu bestimmen. Bei Durchtritt der verdrängten Luft durch das Wasser erhöht sich allerdings auch die Luftfeuchtigkeit. Außerdem übt auch die Gasphase der Wassersäule einen hydrostatischen Druck aus, sodass die Luft nach Durchtritt durch das Wasser einen höheren Druck ausübt. \\
+Der hydrostatische Druck ist mithilfe der barometrischen Höhenformel zu beschreiben:\\
 
+\begin{equation}
+p_\mathrm{hyd}= \delta_\mathrm{H_2O} \cdot g \cdot h
+\end{equation}
 
+Der Wasserdampfpartialdruck ist proportional zu der relativen Luftfeuchtigkeit $r$ und dem Dampfdruck des Wassers bei gegebener Temperatur. \\
 
+\begin{equation}
+p_{rel} = r\cdot p_\mathrm{H_2O}(T_\mathrm{Z})
+\end{equation}
+
+Nach Durchtreten der Luft durch das Wasser ist der Wasserdampfdruck gesättigt, sodass sich für $r = 1$ ergibt. Der Druck ist nun höher als zuvor und muss somit um den neu hinzugekommenen Wert $1- r$ korrigiert werden. \\
+Das von der enstehenden Gasphase der Substanz verdrängte Volumen ist gleich dem aufgefangenen Volumen an Luft im Eudiometerrohr. Der Druck im Eudiometerrohr ist durch die mit Wasser gesättigte Luft allerdings größer. Somit muss der Atmosphärendruck $p_\mathrm{B}$ um die beiden Korrekturfaktoren reduziert werden. 
+
+\begin{equation}
+p_L = P_\mathrm{B} - p_\mathrm{hyd} - ([1-r] \cdot p_\mathrm{H_2O}(T_\mathrm{Z}))
+\end{equation}
+
+Der Druck und die Dichte des Wassers bei herrschender Temperatur werden einer Tabelle entnommen. Der vom Quecksilberbarometer angezeigte Athmosphärendruck wird mithilfe einer Korrekturtabelle in Torr und anschließend Pascal umgerechnet.\\
 
 
 \section{Fehlerrechnung}
@@ -195,7 +221,7 @@ Anschließend ergibt sich für den Fehler des Luftdruckes $\Delta p_\mathrm{L}$:
 Und anschließend für den Fehler der Molaren Masse:\\
 
 \begin{equation}
-\Delta M = \sqrt{\left(\frac{R\cdot T}{p\cdot V}\right)^2 \cdot \Delta m^2 + \left(\frac{m\cdot R}{p\cdot V} \right) \cdot \Delta T^2 + \left(-\frac{m\cdot R\cdot T}{p^2 \cdot V}\right)^2 \cdot \Delta p^2 + \left(-\frac{m \cdot R \cdot T}{p \cdot V^2} \right)^2 \cdot \Delta V^2}
+\Delta M = \sqrt{\left(\frac{R\cdot T}{p\cdot V}\right)^2 \cdot \Delta m^2 + \left(\frac{m\cdot R}{p\cdot V} \right)^2 \cdot \Delta T^2 + \left(-\frac{m\cdot R\cdot T}{p^2 \cdot V}\right)^2 \cdot \Delta p^2 + \left(-\frac{m \cdot R \cdot T}{p \cdot V^2} \right)^2 \cdot \Delta V^2}
 \end{equation}
 
 Mit $p = p_\mathrm{L}$ ergeben sich damit folgende Fehler:\\
@@ -206,19 +232,64 @@ Mit $p = p_\mathrm{L}$ ergeben sich damit folgende Fehler:\\
         \hline
 		Fehler & Messung 1 & Messung 2\\
          \hline 
-        $\Delta p_\mathrm{hyd}$ in Pa & $48,95$  & $48,95$ \
+        $\Delta p_\mathrm{hyd}$ in Pa & $48,95$  & $48,95$ \\
         \hline
         $\Delta p_\mathrm{L}   $ in Pa & $1344$  & $1344$ \\
         \hline
-        $\Delta M $ in $\mathrm{g{~}mol^{-1}}$ & $1,72$ & $1,74$ \\
+        $\Delta M $ in $\mathrm{g{~}mol^{-1}}$ & $1,72 \approx 2$ & $1,74 \approx 2$ \\
         \hline     
 \end{tabular}
 \end{table}
 
 \subsection{Vergleich mit Literaturwerten}
 
+Der Literaturwert der Substanz liegt bei 
+$M_\mathrm{S} = 84\, \mathrm{g\,mol^{-1}}$
+\\
+
+
+Aus den Messungen ergeben sich folgende Werte:\\
+
+
+\begin{table} [h]
+\centering
+\begin{tabular}{|p{4 cm}||p{4 cm}|p{4 cm}|}
+        \hline
+		Werte & Messung 1 & Messung 2\\
+         \hline 
+        $ p_\mathrm{hyd}$ in Pa & $3612$  & $3710$ \\
+        \hline
+        $ p_\mathrm{L}   $ in Pa & $94936$  & $94838$ \\
+        \hline
+        $ M $ in $\mathrm{g{~}mol^{-1}}$ & $86$ & $88$ \\
+        \hline     
+\end{tabular}
+\end{table}
+
+Die gemessenen Werte liegen sehr nah an den Literaturwerten, wodurch sich zeigt, dass die Messung sehr genau ist, soweit sich keine Fehler gegenseitig auslöschen. Dennoch liegt der gemessene Wert der zweiten Messung nicht innerhalb der Fehlergrenzen, sodass noch systematische Fehler vorliegen müssen.
+
 \subsection{Diskussion systematischer Fehler}
 
+Zur Errechnung der molaren Masse wird das ideale Gasgesetz verwandt und somit davon ausgegangen, dass sich die verdampfte Substanz und ebenso auch die Luft wie ein ideales Gas verhalten. Da die gemessene Molmasse größer als die des Literaturwertes ist, muss das gemessene Volumen kleiner sein als das eines idealen Gases und somit eine anziehende Wirkung zwischen den Molekülen herrschen, die Substanz ist wahrscheinlich polar. \\
+Auch wenn sich die Gasphase der verdampften Substanz wie ein ideales Gas verhielte, würde immer noch das Gemisch der Luft zusammen ein reales Gas ergeben. Da die Werte von dem Literaturwert abweichen ist es unwahrscheinlich, dass die Abweichungen der Volumina beider Gase sich gegenseitig aufheben und wie ein ideales Gas verhalten. \\
+Wäre die Substanz ein Gemisch aus zwei sich abstoßenden Stoffen, so wäre die Abweichung vom Literaturwert geringer. Allerdings würde die Messung dann auch keinen Sinn mehr ergeben, weil die Molmasse nur bei einer Substanz bestimmt werden kann. Das Gas einer einzigen Substanz kann sich nicht abstoßen, sondern höchstens annähernd ideal verhalten. Da sich das Luft-Gemisch allerdings immer anziehen und somit ein kleineres Volumen vorliegen wird, werden die errechneten Molmassen immer positiv vom Literaturwert abweichen.\\
+Eine Verbesserungsmöglichkeit wäre, einmal ein näherungsweise ideales Gas und einmal ein Gasgemisch mit einer positiven Abweichung vom idealen Verhalten (stößt sich gegenseitig ab) anstatt von Luft in den Kolben zu füllen um zu schauen, wie ideal sich das Gas der Substanz verhält. Außerdem wäre die Abweichung vom Literaturwert geringer, besonders wenn sich die beiden Abhebungen genau aufhieben. \\
+
+Da  der Druck bei solch einer Messung schwer zu bestimmen wäre(es könnte nicht davon ausgegangen werden dass das Gas nach dem Durchtritt duch das Wasser im Eudiometerrohr gesättigt ist etc.), käme diese Option eher nicht in Frage.\\
+Um eine bessere Näherung in der durchgeführten Messung zu erhalten, müsste eine Virialentwicklung mit einbezogen werden.\\
+
+Da die Abweichung vom Literaturwert relativ gering ist, werden andere systematische Fehlerquellen die beispielsweise beim Abwiegen der Substanz entstehen könnten oder der Temperatur- und Höhenmessung etc. vernachlässigbar klein sein. 
+
+\newpage
+
+\section{Literaturverzeichnis}
+\begin{flushleft}
+1 \quad Gerd Wedler: \emph{Lehrbuch der physikalischen Chemie}, 5. Aufl., WILEY-VCH Verlag GmbH Co. KGaA, Weinheim, \textbf{2004}.\\
+\vspace{0,5 cm}
+2\quad Götz, Eckold: \emph{Sriptum zur Einführung in die physikalische Chemie}, Institut für physikalische Chemie, Uni Göttingen, \textbf{2015}.\\
+\vspace{0,5 cm}
+3 \quad \emph{Skriptum für das Praktikum zur Einführung in die Physikalische Chemie}, Institut für physikalische Chemie, Uni Göttingen, \textbf{2015}.\\
+\end{flushleft}
 
 
 
