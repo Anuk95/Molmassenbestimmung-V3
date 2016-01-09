@@ -140,8 +140,78 @@ $M_\mathrm{S} = 84\, \mathrm{g{~}mol^{-1}}$
 
 \newpage
 \section{Theorie}
-In der Bestimmung der Molmasse nach Viktor Meyer wird die Molmasse einer leicht verdampfbaren Substanz mithilfe des von ihr verdrängten Gasvolumens beim Verdampfen bestimmt.
+In der Bestimmung der Molmasse nach Viktor Meyer wird die Molmasse einer leicht verdampfbaren Substanz mithilfe des von ihr verdrängten Gasvolumens beim Verdampfen bestimmt. Dabei wird näherungsweise von einem idealen Verhalten der Luft und der verdampften Substanz ausgegangen.\\\\
+Allgemein gilt bei idealen Gasmischungen für Stoffmengenanteil $x_i$ und den Partialdruck $p_i$ einer Komponente: 
+\begin{align}
+x_i = \frac{n_i}{\sum n_i}
+\end{align}
+und
+\begin{align}
+p_i = x_i \cdot p_{\mathrm{gesamt}}
+\end{align}\\\\
 
+Da der Partialdruck $p_i$ derjenige Druck ist, welcher vorherrschen würde, wenn sich die Komponente I allein im Gesamtvolumen befände, ist das partielle molare Volumen  $v_i$ der Komponente I gegeben durch:
+
+\begin{align}
+V_i = x_i \cdot V_{\mathrm{m}}= x_i \cdot \frac{ V_{\mathrm{gesamt}}} {n_{\mathrm{gesamt}}}
+\end{align}\\\\
+
+Wobei $ V_m $ für das molare Volumen und $n_{\mathrm{gesamt}}$ für die Gesamtstoffmenge der Gasmischung steht.\\\\
+
+Durch Einsetzen des idealen Gasgesetzes, Gleichung $(4)$, ergibt sich Gleichung $(5)$:
+
+\begin{align}
+pV_m = RT
+\end{align}
+
+\begin{align}
+p_i = x_i \cdot p = \frac{x_in_{\mathrm{gesamt}}RT}{V_{\mathrm{gesamt}}} = \frac{n_iRT}{V_{\mathrm{gesamt}}}
+\end{align}
+
+
+Somit gelten folgende Beziehungen  für die Partialdrücke der Propesubstanz P und der Luft L:
+\begin{align}
+P_{\mathrm{P}}V_{\mathrm{gesamt}} = n_{\mathrm{p}}RT
+\end{align}
+
+\begin{align}
+P_{\mathrm{L}}V_{\mathrm{gesamt}} = n_{\mathrm{L}}RT
+\end{align}
+
+\begin{align}
+p = p_{\mathrm{P}} + p_{\mathrm{L}} = \frac{ \left( n_{\mathrm{P}} + n_{\mathrm{L}} \right)RT}{V_{\mathrm{gesamt}}}
+\end{align}
+
+Im Versuch wird die Probesubstanz P bekannter Masse, jedoch unbekannter Stoffmenge verdampft und verdrängt dann genau die gleiche Stoffmenge Luft L, die sie selbst besitzt. Bei Zimmertemperatur wird dann durch Bestimmung von \textit{p} und \textit{V} die Stoffmenge an verdrängter Luft und damit auch die Stoffmenge der Probesubtanz ermittelt, wodurch sich die Molmasse berechnen lässt:  
+
+\begin{align}
+p_{\mathrm{L}} V_{\mathrm{L}} = n_{\mathrm{P}}RT = \frac{m_{\mathrm{P}}}{M_{\mathrm{P}}RT}
+\end{align}
+
+\begin{align}
+M_{\mathrm{P}} = \frac{m_{\mathrm{P}}\cdot R \cdot T_{\mathrm{Z}}}{p_{\mathrm{L}} \cdot V_{\mathrm{L}}}
+\end{align}
+
+\section{Experimentelles}
+\subsection{Versuchsaufbau}
+
+\begin{figure} [h!]
+\begin{center}
+\includegraphics[width=12cm]{Versuchsaufbau.png} 
+\end{center}
+\caption {Versuchsaufbau}
+\end{figure}
+
+
+In Abbildung 1 ist die Apparatur zur Versuchsdurchführung skizziert. Die Probesubtanz wird in dem Verdampfungsgefäß verdampft. Dieses taucht in das zum Teil mit siedendem Wasser gefülltes Siedegefäß ein, welches wiederum in einem Heizpilz steht und so erhitzt wird. Die Temperatur im Siedegefäß sollte um ca. $20{~} ^{\circ}$C höher liegen als die Siedetemperatur der Probesubstanz. \\\\
+Die Probesubstanz wird in einem Kölbchen in eine Glasöse in Schliffstück A gehängt. Durch einen Dorn im Schliffstück B kann der Hals des Kölbchens zerbrochen werden und die Probesubstanz verdampft im Verdampfungsgefäß. Der Dampf schiebt dann die im Gefäß befindliche Luft vor sich bis in das Messgefäß, wodurch das verdrängte Volumen bestimmt werden kann.
+
+\subsection{Durchführung}
+Die Apparatur wird nach der Skizze beschrieben aufgebaut. Anschließen wird auf $0,1 {~} \mathrm{mg}$ genau die Masse des leeren Kölbchens bestimmt und maximal $0,10{~}\mathrm{g}$ der Probesubstanz mithilfe einer Wasserstrahlpumpe in das Kölbchen gesaugt, welches durch eine grobe Wägung überprüft wird. Nach Zuschmelzen des gereinigten Kölbchenhalses wird durch ein dritte Wägung die tatsächlich aufgenommene Substanzmenge $m_{\mathrm{P}}$ genau ermittelt.\\\\
+Nun wird die Apparatur an den Schliffen A und B, Kern und Hülse der Schliffe gesäubert und neu gefettet. Anschließend wird alles nach der Skizze beschrieben vorsichtig zusammengesetzt, dabei wird darauf geachtet, dass die Schliffe schlierenfrei sind. Das Eudiometerrohr wird mit Wasser gefüllt.\\\\
+Das Wasser wird durch den Heizpilz zum sieden gebracht und sobald keine Luftblasen mehr aus dem Verbindungsrohr entweichen wird das Verbindungsrohr unter das Eudiometerrohr geschoben. Darauf zerbricht man durch Drehung des Schliffstücks A den Hals des Kölbchens, sodass dieses in den heißen Teil des Verdampfungsgefäßes fällt. Sobald der Verdampfungsprozess abgeschlossen ist, wird das Volumen der Verdrängten Luft, sowie die Höhe des Wasserstandes bestimmt.\\\\
+Der Versuch soll einmal wiederholt werden, wobei das Verdampfungsgefäß zwischen den Versuchen ausreichend zu belüften ist. Bei einer relativen Abweichung der Messergebnisse von $30\%$ ist ein dritter Versuch durchzuführen.\\\\
+Des weiteren muss der Luftdruck, sowie die Luftfeuchtigkeit und die Zimmertemperatur $T_{\mathrm{Z}}$ bestimmt werden.     
 
 
 \section{Auswertung}

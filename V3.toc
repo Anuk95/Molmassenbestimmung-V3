@@ -1,10 +1,13 @@
 \select@language {ngerman}
 \select@language {ngerman}
 \contentsline {section}{\numberline {1}Theorie}{3}{section.1}
-\contentsline {section}{\numberline {2}Auswertung}{3}{section.2}
-\contentsline {section}{\numberline {3}Fehlerrechnung}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1}absolute Fehler}{4}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Fehlerfortpflanzung}{4}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Vergleich mit Literaturwerten}{5}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Diskussion systematischer Fehler}{5}{subsection.3.4}
-\contentsline {section}{\numberline {4}Literaturverzeichnis}{7}{section.4}
+\contentsline {section}{\numberline {2}Experimentelles}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Versuchsaufbau}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Durchf\IeC {\"u}hrung}{5}{subsection.2.2}
+\contentsline {section}{\numberline {3}Auswertung}{6}{section.3}
+\contentsline {section}{\numberline {4}Fehlerrechnung}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}absolute Fehler}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Fehlerfortpflanzung}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Vergleich mit Literaturwerten}{8}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Diskussion systematischer Fehler}{8}{subsection.4.4}
+\contentsline {section}{\numberline {5}Literaturverzeichnis}{10}{section.5}
