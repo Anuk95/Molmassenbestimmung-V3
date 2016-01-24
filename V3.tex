@@ -207,11 +207,11 @@ In Abbildung 1 ist die Apparatur zur Versuchsdurchführung skizziert. Die Probes
 Die Probesubstanz wird in einem Kölbchen in eine Glasöse in Schliffstück A gehängt. Durch einen Dorn im Schliffstück B kann der Hals des Kölbchens zerbrochen werden und die Probesubstanz verdampft im Verdampfungsgefäß. Der Dampf schiebt dann die im Gefäß befindliche Luft vor sich bis in das Messgefäß, wodurch das verdrängte Volumen bestimmt werden kann.
 
 \subsection{Durchführung}
-Die Apparatur wird nach der Skizze beschrieben aufgebaut. Anschließen wird auf $0,1 {~} \mathrm{mg}$ genau die Masse des leeren Kölbchens bestimmt und maximal $0,10{~}\mathrm{g}$ der Probesubstanz mithilfe einer Wasserstrahlpumpe in das Kölbchen gesaugt, welches durch eine grobe Wägung überprüft wird. Nach Zuschmelzen des gereinigten Kölbchenhalses wird durch ein dritte Wägung die tatsächlich aufgenommene Substanzmenge $m_{\mathrm{P}}$ genau ermittelt.\\\\
+Die Masse des leeren Kölbchens wird auf $0,1 {~} \mathrm{mg}$ genau bestimmt und maximal $0,10{~}\mathrm{g}$ der Probesubstanz mithilfe einer Wasserstrahlpumpe in das Kölbchen gesaugt, welches durch eine grobe Wägung überprüft wird. Nach Zuschmelzen des gereinigten Kölbchenhalses wird durch ein dritte Wägung die tatsächlich aufgenommene Substanzmenge $m_{\mathrm{P}}$ genau ermittelt.\\\\
 Nun wird die Apparatur an den Schliffen A und B, Kern und Hülse der Schliffe gesäubert und neu gefettet. Anschließend wird alles nach der Skizze beschrieben vorsichtig zusammengesetzt, dabei wird darauf geachtet, dass die Schliffe schlierenfrei sind. Das Eudiometerrohr wird mit Wasser gefüllt.\\\\
-Das Wasser wird durch den Heizpilz zum sieden gebracht und sobald keine Luftblasen mehr aus dem Verbindungsrohr entweichen wird das Verbindungsrohr unter das Eudiometerrohr geschoben. Darauf zerbricht man durch Drehung des Schliffstücks A den Hals des Kölbchens, sodass dieses in den heißen Teil des Verdampfungsgefäßes fällt. Sobald der Verdampfungsprozess abgeschlossen ist, wird das Volumen der Verdrängten Luft, sowie die Höhe des Wasserstandes bestimmt.\\\\
-Der Versuch soll einmal wiederholt werden, wobei das Verdampfungsgefäß zwischen den Versuchen ausreichend zu belüften ist. Bei einer relativen Abweichung der Messergebnisse von $30\%$ ist ein dritter Versuch durchzuführen.\\\\
-Des weiteren muss der Luftdruck, sowie die Luftfeuchtigkeit und die Zimmertemperatur $T_{\mathrm{Z}}$ bestimmt werden.     
+Das Wasser wird durch den Heizpilz zum Sieden gebracht und sobald keine Luftblasen mehr aus dem Verbindungsrohr entweichen wird das Verbindungsrohr unter das Eudiometerrohr geschoben. Darauf zerbricht man durch Drehung des Schliffstücks A den Hals des Kölbchens, sodass dieses in den heißen Teil des Verdampfungsgefäßes fällt. Sobald der Verdampfungsprozess abgeschlossen ist, wird das Volumen der Verdrängten Luft, sowie die Höhe des Wasserstandes bestimmt.\\\\
+Der Versuch soll einmal wiederholt werden, wobei das Verdampfungsgefäß zwischen den Versuchen ausreichend zu belüften ist.\\
+Des weiteren muss der Luftdruck $p_\mathrm{L}$, sowie die Luftfeuchtigkeit und die Zimmertemperatur $T_{\mathrm{Z}}$ bestimmt werden.     
 
 
 \section{Auswertung}
@@ -227,7 +227,7 @@ Zu Beginn der Messung ist der Druck $p_\mathrm{L}$ innerhalb der Apparatur gleic
 Der hydrostatische Druck ist mithilfe der barometrischen Höhenformel zu beschreiben:\\
 
 \begin{equation}
-p_\mathrm{hyd}= \delta_\mathrm{H_2O} \cdot g \cdot h
+p_\mathrm{hyd}= \rho_\mathrm{H_2O} \cdot g \cdot h
 \end{equation}
 
 Der Wasserdampfpartialdruck ist proportional zu der relativen Luftfeuchtigkeit $r$ und dem Dampfdruck des Wassers bei gegebener Temperatur. \\
@@ -244,6 +244,27 @@ p_L = P_\mathrm{B} - p_\mathrm{hyd} - ([1-r] \cdot p_\mathrm{H_2O}(T_\mathrm{Z})
 \end{equation}
 
 Der Druck und die Dichte des Wassers bei herrschender Temperatur werden einer Tabelle entnommen. Der vom Quecksilberbarometer angezeigte Athmosphärendruck wird mithilfe einer Korrekturtabelle in Torr und anschließend Pascal umgerechnet.\\
+Folgende Messwerte sind für beide Rechnungen gleich:\\
+
+\begin{table} [h]
+\begin{tabular} {p {7 cm} p {5 cm}}
+	Athmosphärendruck $p_\mathrm{B}$ &  \\
+	relative Luftfeuchtigkeit $r$ & \\
+	Wassertemperatur $T_\mathrm{Z}$ & $23^\circ\text{C}$ \\
+	$\rho_\mathrm{H_2O}(T_\mathrm{Z})$ & \\
+
+
+\end{tabular}
+\end{table}
+
+
+
+
+Tabelle für die errechneten Werte einfügen!
+Der hydrostatische Druck ergibt aus .... und ... für die Messungen (Tabelle einfügen)
+
+
+
 
 
 \section{Fehlerrechnung}
@@ -256,7 +277,7 @@ Die absoluten Fehler der Messgrößen ergeben sich aus der letzten Dezimalstelle
 \begin{tabular} {p {3 cm} p {5 cm}}
 	$\Delta m $ & $=0,001$ g\\
 	$\Delta p_\mathrm{B}  $ & $=0,07\, \mathrm{Torr} = 9,3325$ Pa\\
-	$\Delta \delta_\mathrm{H_2O} $ & $=0,01\, \mathrm{kg} \cdot 				\mathrm{m^{-3}}$\\
+	$\Delta \rho_\mathrm{H_2O} $ & $=0,01\, \mathrm{kg} \cdot 				\mathrm{m^{-3}}$\\
 	$\Delta r $ & $=0,01$\\
 	$\Delta V $ & $= 0,1 \cdot 10^{-6} \mathrm{m^3}$\\
 	$\Delta p_\mathrm{H_2O}(T_\mathrm{Z}) $ & $= 0,1$ Pa\\
