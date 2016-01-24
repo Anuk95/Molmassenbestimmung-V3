@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.8)  9 JAN 2016 17:41
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.12)  6 JAN 2016 20:14
->>>>>>> origin/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.8)  24 JAN 2016 09:35
 entering extended mode
 **V3.tex
 (V3.tex
@@ -1319,13 +1315,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 175.
 [3]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 195.
@@ -1335,7 +1331,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 196.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 196.
- <Versuchsaufbau.png, id=87, 1653.92906pt x 1223.32031pt>
+ <Versuchsaufbau.png, id=88, 1653.92906pt x 1223.32031pt>
 File: Versuchsaufbau.png Graphic file (type png)
 
 <use Versuchsaufbau.png>
@@ -1550,41 +1546,23 @@ Here is how much of TeX's memory you used:
  19375 words of font info for 79 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  44i,13n,56p,10353b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
-<<<<<<< HEAD
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on V3.pdf (10 pages, 4960165 bytes).
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on V3.pdf (10 pages, 4968638 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
+ 191 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
  94 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-<D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Neuer Ordner/f
-onts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Neuer Ordner/fonts/type1/public/a
-msfonts/cm/cmex10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Neuer Ordner/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><D:/Neuer Ordner/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:
-/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Neuer Ordner/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm
-/cmssbx10.pfb><D:/Neuer Ordner/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Ne
-uer Ordner/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Neuer Ordner/fonts/type
-1/public/amsfonts/cm/cmti12.pfb>
-Output written on V3.pdf (7 pages, 182058 bytes).
-PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> origin/master
 
