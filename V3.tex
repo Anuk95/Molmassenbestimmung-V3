@@ -111,7 +111,9 @@
 Durchführende: &  Alea Tokita, Julia Stachowiak\\
 Assistentin: & Annemarie Kehl\\
  Versuchsdatum: & 21.12.2015\\
- Datum der ersten Abgabe: & 11.01.2016
+ Datum der ersten Abgabe: & 11.01.2016\\
+ Datum der zweiten Abgabe: & 25.01.2016      \\
+ Datum der dritten Abgabe: & 04.02.2016\\
 \end{tabular}
 \end{Large}
 
@@ -125,7 +127,7 @@ Assistentin: & Annemarie Kehl\\
    $M_2 = (88 \pm 2){~} \mathrm{g{~}mol^{-1}}$\\ 
 \\
 Literaturwert: \\
-$M_\mathrm{Cl_2CH_4} = 84\, \mathrm{g{~}mol^{-1}}$
+$M_\mathrm{Cl_2CH_2} = 84,93\, \mathrm{g{~}mol^{-1}}$
   
   
   
@@ -140,7 +142,10 @@ $M_\mathrm{Cl_2CH_4} = 84\, \mathrm{g{~}mol^{-1}}$
 
 \newpage
 \section{Theorie}
-In der Bestimmung der Molmasse nach Viktor Meyer wird die Molmasse einer leicht verdampfbaren Substanz mithilfe des von ihr verdrängten Gasvolumens beim Verdampfen bestimmt. Dabei wird näherungsweise von einem idealen Verhalten der Luft und der verdampften Substanz ausgegangen.\\\\
+In der Bestimmung der Molmasse nach Viktor Meyer wird die Molmasse einer leicht verdampfbaren Substanz mithilfe des von ihr verdrängten Gasvolumens beim Verdampfen bestimmt. Dabei handelt es sich um eine flüchtige Substanz, d.h. sie verdampft schon bei niedrigen Temperaturen unter $100{~}^{\circ}$C. In den Berechnungen wird näherungsweise von einem idealen Verhalten der Luft, sowie der verdampften Substanz und der Mischung beider ausgegangen. Es wird also angenommen, dass sich diese Gase wie ideale Gase verhalten, dh. keine Ausdehnung besitzen (Punktmassen)  und untereinander nur über elastische Stöße wechselwirken, sich aber gegenseitig nicht anziehen oder abstoßen. Dadurch lässt sich das ideale Gasgesetz auf sie anwenden.\\
+
+Bei Mischung zweier idealer Gase gleichen Druckes und gleicher Temperatur addieren sich deren Volumina und die Gasmischung verhält sich somit ebenfalls ideal. Die Gase stoßen sich demnach weder ab oder ziehen sich an und besitzen Punktmassen.\\
+
 Allgemein gilt bei idealen Gasmischungen für Stoffmengenanteil $x_i$ und den Partialdruck $p_i$ einer Komponente: 
 \begin{align}
 x_i = \frac{n_i}{\sum n_i}
@@ -240,33 +245,58 @@ Nach Durchtreten der Luft durch das Wasser ist der Wasserdampfdruck gesättigt, 
 Das von der enstehenden Gasphase der Substanz verdrängte Volumen ist gleich dem aufgefangenen Volumen an Luft im Eudiometerrohr. Der Druck im Eudiometerrohr ist durch die mit Wasser gesättigte Luft allerdings größer. Somit muss der Atmosphärendruck $p_\mathrm{B}$ um die beiden Korrekturfaktoren reduziert werden. 
 
 \begin{equation}
-p_L = P_\mathrm{B} - p_\mathrm{hyd} - ([1-r] \cdot p_\mathrm{H_2O}(T_\mathrm{Z}))
+p_L = p_\mathrm{B} - p_\mathrm{hyd} - ([1-r] \cdot p_\mathrm{H_2O}(T_\mathrm{Z}))
 \end{equation}
 
 Der Druck und die Dichte des Wassers bei herrschender Temperatur werden einer Tabelle entnommen. Der vom Quecksilberbarometer angezeigte Athmosphärendruck wird mithilfe einer Korrekturtabelle in Torr und anschließend Pascal umgerechnet.\\
 Folgende Messwerte sind für beide Rechnungen gleich:\\
 
 \begin{table} [h]
-\begin{tabular} {p {7 cm} p {5 cm}}
-	Athmosphärendruck $p_\mathrm{B}$ &  \\
-	relative Luftfeuchtigkeit $r$ & \\
-	Wassertemperatur $T_\mathrm{Z}$ & $23^\circ\text{C}$ \\
-	$\rho_\mathrm{H_2O}(T_\mathrm{Z})$ & \\
-
-
+\begin{tabular} {p {3 cm} p {5 cm}}
+$T_\mathrm{Z} $ & $=21^\circ\text{C}$\\
+	$ \rho_\mathrm{H_2O} $ & $=997,95\, \mathrm{kg} \cdot 				\mathrm{m^{-3}}$\protect\footnotemark\\
+	$ r $ & $=0,54$\\
 \end{tabular}
 \end{table}
 
+\footnotetext{http://webbook.nist.gov/chemistry/, Stand: 14.07.2011}
+
+Außerdem wurde noch folgendes gemessen:\\
+
+\begin{table} [h]
+\centering
+\begin{tabular}{|p{4 cm}||p{4 cm}|p{4 cm}|}
+        \hline
+		Werte & Messung 1 & Messung 2\\
+         \hline 
+        $ h$ in m & $0,369$  & $0,379$ \\
+        \hline
+        $ m$ in g & $0,0777$  & $0,0794$ \\
+        \hline
+        $ V $ in ml & $23,2$ & $23,2$ \\
+        \hline     
+\end{tabular}
+\end{table}
+
+Daraus ergeben sich durch einsetzen in Formel 11, 12 und 14 folgende Werte:
 
 
+\begin{table} [h]
+\centering
+\begin{tabular}{|p{4 cm}||p{4 cm}|p{4 cm}|}
+        \hline
+		Werte & Messung 1 & Messung 2\\
+         \hline 
+        $ p_\mathrm{hyd}$ in Pa & $3612 \approx 361 \cdot 10$  & $3710 \approx 371 \cdot 10$ \\
+        \hline
+        $ p_\mathrm{L}   $ in Pa & $94838 \approx 948 \cdot 10^2$  & $94936 \approx 949 \cdot 10^2$ \\
+        \hline
+        $ M $ in $\mathrm{g{~}mol^{-1}}$ & $86$ & $88$ \\
+        \hline     
+\end{tabular}
+\end{table}
 
-Tabelle für die errechneten Werte einfügen!
-Der hydrostatische Druck ergibt aus .... und ... für die Messungen (Tabelle einfügen)
-
-
-
-
-
+\newpage
 \section{Fehlerrechnung}
 
 \subsection{absolute Fehler}
@@ -276,12 +306,12 @@ Die absoluten Fehler der Messgrößen ergeben sich aus der letzten Dezimalstelle
 \begin{table} [h]
 \begin{tabular} {p {3 cm} p {5 cm}}
 	$\Delta m $ & $=0,001$ g\\
-	$\Delta p_\mathrm{B}  $ & $=0,07\, \mathrm{Torr} = 9,3325$ Pa\\
+	$\Delta p_\mathrm{B}  $ & $=0,07\, \mathrm{Torr} \approx 9$ Pa\\
 	$\Delta \rho_\mathrm{H_2O} $ & $=0,01\, \mathrm{kg} \cdot 				\mathrm{m^{-3}}$\\
 	$\Delta r $ & $=0,01$\\
 	$\Delta V $ & $= 0,1 \cdot 10^{-6} \mathrm{m^3}$\\
 	$\Delta p_\mathrm{H_2O}(T_\mathrm{Z}) $ & $= 0,1$ Pa\\
-	$\Delta h $ & $ =0.005$ m\\
+	$\Delta h $ & $ =0,005$ m\\
 
 \end{tabular}
 \end{table}
@@ -298,7 +328,7 @@ Nach der Gauß'schen Fehlerfortpflanzung
 ergibt sich für den hydrostatischen Druck $\Delta p_\mathrm{hyd}$ folgender Fehler:\\
 
 \begin{equation}
-\Delta p_\mathrm{hyd} =  \sqrt{(g \cdot h)^2 \cdot \Delta \delta_\mathrm{H_2O}^2 + (\delta_\mathrm{H_2O} \cdot g)^2 \cdot \Delta h^2}
+\Delta p_\mathrm{hyd} =  \sqrt{(g \cdot h)^2 \cdot \Delta \rho_\mathrm{H_2O}^2 + (\rho_\mathrm{H_2O} \cdot g)^2 \cdot \Delta h^2}
 \end{equation}
 
 
@@ -323,20 +353,42 @@ Mit $p = p_\mathrm{L}$ ergeben sich damit folgende Fehler:\\
         \hline
 		Fehler & Messung 1 & Messung 2\\
          \hline 
-        $\Delta p_\mathrm{hyd}$ in Pa & $48,95$  & $48,95$ \\
+        $\Delta p_\mathrm{hyd}$ in Pa & $48,95 \approx 50$  & $48,95 \approx 50$ \\
         \hline
-        $\Delta p_\mathrm{L}   $ in Pa & $1344$  & $1344$ \\
+        $\Delta p_\mathrm{L}   $ in Pa & $1344 \approx 1 \cdot 10^3$  & $1344 \approx 1 \cdot 10^3$ \\
         \hline
         $\Delta M $ in $\mathrm{g{~}mol^{-1}}$ & $1,72 \approx 2$ & $1,74 \approx 2$ \\
         \hline     
 \end{tabular}
 \end{table}
 
-\subsection{Vergleich mit Literaturwerten}
 
-Der Literaturwert von Dichlormethan liegt bei 
-$M_\mathrm{S} = 84\, \mathrm{g\,mol^{-1}}$
+
+
+\subsection{Diskussion systematischer Fehler}
+
+Zur Errechnung der molaren Masse wird das ideale Gasgesetz verwandt und somit davon ausgegangen, dass sich die verdampfte Substanz und ebenso auch die Luft wie ein ideales Gas verhalten. \\
+
+In Realität verhält es sich jedoch anders, wodurch es je nach Abstoßung oder Anziehung des Gases der Substanz zu einer positiven oder negativen Abweichung kommen kann. Da es sich um verschiedene Gase handelt (Gemisch mit der Luft), können sich die Wechselwirkungen gegenseitig aufheben oder addieren.\\ 
+
+Ein weiterer systematischer Fehler ist die nicht konstante Temperatur des Wasserbades. Durch den hindurchtretenden Wasserdampf erwärmt sich das Wasserbad und die der Tabelle entnommene Dichte des Wassers ist somit auch nicht konstant sondern wird während der Messung größer. Dadurch wird der hydrostatische Druck größer und der Luftdruck kleiner, was eine positive Abweichung der molaren Masse zur Folge hat.\\
+
+
+Eine weitere Schwierigkeit stellt die Höhenmessung dar. Sie erfolgte mittels eines Zollstockes und muss im rechten Winkel zum Boden des Wasserbades gemessen werden, was mittels Zollstock schwer zu verwirklichen ist. Die Höhe wurde durch falsches Anlegen des Zosstockes somit wahrscheinlich größer bestimmt, was den hydrostatischen Druck ebenfalls größer und dadurch den  Luftdruck kleiner macht. Dies hat ebenfalls eine positive Abweichung des Literaturwertes im Bezug auf die Messwerte zur Folge.
 \\
+
+
+
+
+\section{Diskussion}
+
+\subsection{Vergleich mit Literaturwerten}
+Der Literaturwert von Dichlormethan liegt bei 
+$M_\mathrm{S} = 84,93\, \mathrm{g\,mol^{-1}}$\protect\footnotemark
+\\
+
+\footnotetext{http://www.chemie.de/lexikon/Dichlormethan.html, abgerufen am \textbf{24.01.16} }
+
 
 
 Aus den Messungen ergeben sich folgende Werte:\\
@@ -348,28 +400,24 @@ Aus den Messungen ergeben sich folgende Werte:\\
         \hline
 		Werte & Messung 1 & Messung 2\\
          \hline 
-        $ p_\mathrm{hyd}$ in Pa & $3612$  & $3710$ \\
+        $ p_\mathrm{hyd}$ in Pa & $3612 \pm 50$  & $3710 \pm 50$ \\
         \hline
-        $ p_\mathrm{L}   $ in Pa & $94936$  & $94838$ \\
-        \hline
-        $ M $ in $\mathrm{g{~}mol^{-1}}$ & $86$ & $88$ \\
+        $ M $ in $\mathrm{g{~}mol^{-1}}$ & $86 \pm 2$ & $88 \pm 2$ \\
         \hline     
 \end{tabular}
 \end{table}
 
-Die gemessenen Werte liegen sehr nah an den Literaturwerten, wodurch sich zeigt, dass die Messung sehr genau ist, soweit sich keine Fehler gegenseitig auslöschen. Dennoch liegt der gemessene Wert der zweiten Messung nicht innerhalb der Fehlergrenzen, sodass noch systematische Fehler vorliegen müssen.
+\subsection{Diskussion}
 
-\subsection{Diskussion systematischer Fehler}
 
-Zur Errechnung der molaren Masse wird das ideale Gasgesetz verwandt und somit davon ausgegangen, dass sich die verdampfte Substanz und ebenso auch die Luft wie ein ideales Gas verhalten. Da die gemessene Molmasse größer als die des Literaturwertes ist, muss das gemessene Volumen kleiner sein als das eines idealen Gases und somit eine anziehende Wirkung zwischen den Molekülen herrschen, die Substanz ist wahrscheinlich polar. \\
-Auch wenn sich die Gasphase der verdampften Substanz wie ein ideales Gas verhielte, würde immer noch das Gemisch der Luft zusammen ein reales Gas ergeben. Da die Werte von dem Literaturwert abweichen ist es unwahrscheinlich, dass die Abweichungen der Volumina beider Gase sich gegenseitig aufheben und wie ein ideales Gas verhalten. \\
-Wäre die Substanz ein Gemisch aus zwei sich abstoßenden Stoffen, so wäre die Abweichung vom Literaturwert geringer. Allerdings würde die Messung dann auch keinen Sinn mehr ergeben, weil die Molmasse nur bei einer Substanz bestimmt werden kann. Das Gas einer einzigen Substanz kann sich nicht abstoßen, sondern höchstens annähernd ideal verhalten. Da sich das Luft-Gemisch allerdings immer anziehen und somit ein kleineres Volumen vorliegen wird, werden die errechneten Molmassen immer positiv vom Literaturwert abweichen.\\
-Eine Verbesserungsmöglichkeit wäre, einmal ein näherungsweise ideales Gas und einmal ein Gasgemisch mit einer positiven Abweichung vom idealen Verhalten (stößt sich gegenseitig ab) anstatt von Luft in den Kolben zu füllen um zu schauen, wie ideal sich das Gas der Substanz verhält. Außerdem wäre die Abweichung vom Literaturwert geringer, besonders wenn sich die beiden Abhebungen genau aufhieben. \\
+Die gemessenen Werte liegen sehr nah an den Literaturwerten, wodurch sich zeigt, dass die Messung sehr genau ist, oder sich Fehler gegenseitig ausgleichen. Dennoch schließen die Fehlergrenzen der zweiten Messung den Literaturwert nicht ein; es muss also noch systematische Fehler geben. \\
+Wie im vorigen Abschnitt dargestellt, verursachen Fehler in der Höhen- und Temperaturmessung eine Abweichung der gemessenen Werte unterhalb des Literaturwertes, tatsächlich sind die gemessenen Werte allerdings größer. Dies lässt darauf schließen, dass der systematische Fehler der Näherung das Gas verhalte sich ideal, einen größeren systematischen Fehler darstellt und die anderen beiden Fehler sogar teilweise kompensiert, da der Fehler genau in die andere Richtung wirkt.\\
 
-Da  der Druck bei solch einer Messung schwer zu bestimmen wäre(es könnte nicht davon ausgegangen werden dass das Gas nach dem Durchtritt duch das Wasser im Eudiometerrohr gesättigt ist etc.), käme diese Option eher nicht in Frage.\\
-Um eine bessere Näherung in der durchgeführten Messung zu erhalten, müsste eine Virialentwicklung mit einbezogen werden.\\
+Es gibt sehr viele fehlerbehaftete Größen im Experiment, wodurch sich Messfehler auch über die Fehlergrenzen hinaus fortpflanzen können, wenn die angenommenen Gerätefehler zu klein gewählt wurden.\\
 
-Da die Abweichung vom Literaturwert relativ gering ist, werden andere systematische Fehlerquellen die beispielsweise beim Abwiegen der Substanz entstehen könnten oder der Temperatur- und Höhenmessung etc. vernachlässigbar klein sein. 
+ Außerdem ist es auch nicht möglich, anhand der Messwerte einzuschätzen, ob das Gas der Substanz positiv oder negativ vom idealen Verhalten abweicht. Die zu große ermittelte molare Masse müsste von einem zu kleinen Volumen kommen, was eine negative Abweichung vom idealen Verhalten zur Folge hätte; diese Aussage kann allerdings aufgrund der zu hohen Ungenauigkeit und der zu kleinen Abweichung nicht getroffen werden.\\
+
+Für genauere Werte müsste mit einer Virialentwicklung gerechnet werden, die Abweichung von 2 bzw. 4,5 Prozent zeigt jedoch, dass in guter Näherung mit dem idealen Gasgesetz gerechnet werden kann.
 
 \newpage
 
